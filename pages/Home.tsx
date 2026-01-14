@@ -96,7 +96,7 @@ export const Home: React.FC = () => {
                 viewport={{ once: true }}
                 className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/3] bg-gray-200"
               >
-                <img src="/media/homepage.png" alt="فريق تلاق" className="w-full h-full object-cover" />
+                <img src="/homepage.png" alt="فريق تلاق" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-primary-900/10"></div>
               </motion.div>
             </div>

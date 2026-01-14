@@ -33,7 +33,7 @@ export const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <img src="/media/logo.png" alt="تَلاق لوجو" className="h-12 w-auto object-contain group-hover:opacity-80 transition-opacity" />
+            <img src="/logo.png" alt="تَلاق لوجو" className="h-12 w-auto object-contain group-hover:opacity-80 transition-opacity" />
           </Link>
 
           {/* Desktop Menu */}
@@ -153,7 +153,7 @@ export const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 mt-16 pt-8">
           <div className="flex flex-col items-center gap-6 mb-8">
-            <img src="/media/logo.png" alt="تَلاق لوجو" className="h-16 w-auto object-contain" />
+            <img src="/logo.png" alt="تَلاق لوجو" className="h-16 w-auto object-contain" />
             <div className="flex flex-col items-center">
               <span className="text-xl font-bold text-white leading-none">تَلاق</span>
               <span className="text-xs text-gray-500 font-medium">الإعلام المركزي</span>

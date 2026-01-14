@@ -65,7 +65,7 @@ export const Services: React.FC = () => {
               <div className="w-full md:w-1/2">
                 <div className="rounded-2xl overflow-hidden aspect-[4/3] shadow-md bg-gray-200 relative">
                    <img 
-                    src={`/media/${service.id}se.png`} 
+                    src={`/${service.id}se.png`} 
                     alt={service.title} 
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                    />
